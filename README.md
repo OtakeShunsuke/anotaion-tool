@@ -1,16 +1,12 @@
-# test
+# FERV39Kデータセットのアノテーション追加ためのMac環境ソフトウェア
 
-A new Flutter project.
+修士研究において使用するFERV39Kデータセットのアノテーションを追加し、研究時に使用するソフトラベルデータセットを作成するためのツール。
 
-## Getting Started
+## 使用方法
+アプリケーションをビルド後、
+"ファイルのパス(string)", "アノテーションラベル(int)"
+のCSVファイルを読み込むことで、アノテーションラベルを更新・新規登録できる。
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 想定環境
+MacOS
+※Windows対応中
